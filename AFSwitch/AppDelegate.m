@@ -19,6 +19,8 @@
     // Override point for customization after application launch.
 
     NSLog(@"git 太棒了");
+    NSLog(@"git 太棒了");
+    NSLog(@"git 太棒了");
     
 
     return YES;
