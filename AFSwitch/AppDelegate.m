@@ -20,7 +20,8 @@
 
     NSLog(@"git 太棒了");
     
-    
+    NSLog(@"git 就是牛逼");
+
     return YES;
 }
 
