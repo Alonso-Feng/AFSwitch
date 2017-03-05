@@ -17,15 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSLog(@"hello world");
-    NSLog(@"hello world two");
-    NSLog(@"hello world two");
-    NSLog(@"hello world two");
-    NSLog(@"hello world two");
-    
-    
-    
-    
+
+    NSLog(@"git 太棒了");
     
     
     return YES;
