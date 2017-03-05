@@ -19,6 +19,9 @@
     // Override point for customization after application launch.
     NSLog(@"hello world");
     NSLog(@"hello world two");
+    NSLog(@"hello world two");
+    NSLog(@"hello world two");
+    NSLog(@"hello world two");
     return YES;
 }
 
