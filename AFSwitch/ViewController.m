@@ -23,11 +23,6 @@
     UILabel *label = [[UILabel alloc] init];
     [self.view addSubview:label];
 
-    UIButton *button = [[UIButton alloc] init];
-    [self.view addSubview:button];
-
-    UILabel *label = [[UILabel alloc] init];
-    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning {
