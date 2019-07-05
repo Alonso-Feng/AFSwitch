@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UILabel *label = [[UILabel alloc] init];
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning {
