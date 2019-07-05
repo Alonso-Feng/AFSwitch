@@ -24,6 +24,9 @@
     UILabel *label = [[UILabel alloc] init];
     [self.view addSubview:label];
     
+    UIView *view = [[UIView alloc] init];
+    [self.view addSubview:view];
+    
 }
 
 - (void)didReceiveMemoryWarning {
