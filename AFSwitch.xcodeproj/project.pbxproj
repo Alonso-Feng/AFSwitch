@@ -15,6 +15,7 @@
 		521516651C4BE4C400E0C2E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521516631C4BE4C400E0C2E4 /* LaunchScreen.storyboard */; };
 		521516701C4BE4C400E0C2E4 /* AFSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5215166F1C4BE4C400E0C2E4 /* AFSwitchTests.m */; };
 		5215167B1C4BE4C400E0C2E4 /* AFSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5215167A1C4BE4C400E0C2E4 /* AFSwitchUITests.m */; };
+		841D7C792387DD9D007A6228 /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 841D7C782387DD9C007A6228 /* 111.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		521516761C4BE4C400E0C2E4 /* AFSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5215167A1C4BE4C400E0C2E4 /* AFSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFSwitchUITests.m; sourceTree = "<group>"; };
 		5215167C1C4BE4C400E0C2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841D7C782387DD9C007A6228 /* 111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 111.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		521516491C4BE4C300E0C2E4 = {
 			isa = PBXGroup;
 			children = (
+				841D7C772387DD8D007A6228 /* Images */,
 				521516541C4BE4C400E0C2E4 /* AFSwitch */,
 				5215166E1C4BE4C400E0C2E4 /* AFSwitchTests */,
 				521516791C4BE4C400E0C2E4 /* AFSwitchUITests */,
@@ -138,6 +141,14 @@
 				5215167C1C4BE4C400E0C2E4 /* Info.plist */,
 			);
 			path = AFSwitchUITests;
+			sourceTree = "<group>";
+		};
+		841D7C772387DD8D007A6228 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				841D7C782387DD9C007A6228 /* 111.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +234,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -244,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				521516651C4BE4C400E0C2E4 /* LaunchScreen.storyboard in Resources */,
+				841D7C792387DD9D007A6228 /* 111.jpg in Resources */,
 				521516621C4BE4C400E0C2E4 /* Assets.xcassets in Resources */,
 				521516601C4BE4C400E0C2E4 /* Main.storyboard in Resources */,
 			);
@@ -496,6 +509,7 @@
 				521516811C4BE4C400E0C2E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		521516821C4BE4C400E0C2E4 /* Build configuration list for PBXNativeTarget "AFSwitchTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +518,7 @@
 				521516841C4BE4C400E0C2E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		521516851C4BE4C400E0C2E4 /* Build configuration list for PBXNativeTarget "AFSwitchUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +527,7 @@
 				521516871C4BE4C400E0C2E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
